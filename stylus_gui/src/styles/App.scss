@@ -1,0 +1,54 @@
+@import "Navbar";
+@import "Home";
+@import "Shop";
+@import "Contact";
+@import "ShoppingCart";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2{
+  font-weight: 100;
+}
+
+h3, h4{
+  font-weight: 300;
+}
+
+.page-content-container{
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+button{
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s;
+
+  &:hover{
+    background-color: black;
+    color: white;
+  }
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #dedede;
+  margin: 10px 30px;
+}
